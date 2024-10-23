@@ -1,0 +1,16 @@
+@layer tailwind-base, primevue, tailwind-utilities;
+
+@layer tailwind-base {
+  @tailwind base;
+}
+
+@layer tailwind-utilities {
+  @tailwind components;
+  @tailwind utilities;
+}
+
+#app{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
